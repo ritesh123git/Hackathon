@@ -68,8 +68,16 @@ class change extends StatelessWidget {
                 ),
               ),
             ]),
-            Text('Time Table',
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 20, 8, 8),
+              child: Text('Time Table',
+                style: GoogleFonts.inder(
+                  fontSize: 24,
 
+                ),
+
+
+              ),
             ),
           ]
           ),

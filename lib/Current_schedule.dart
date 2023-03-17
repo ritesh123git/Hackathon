@@ -45,9 +45,7 @@ class MyApp extends StatelessWidget {
                             ),
                           SizedBox(width: 20,),
                           ElevatedButton(onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => change()),
+                            Navigator.push(context,MaterialPageRoute(builder: (context) => change()),
                             );},
                             style: ElevatedButton.styleFrom(
                               fixedSize: Size(150, 40),
